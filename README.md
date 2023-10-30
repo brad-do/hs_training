@@ -82,3 +82,11 @@ In order to leverage our virtual environment in our project--predominantly Jupyt
 This project already contains several Jupyter Notebooks.  You should ensure that the notebooks:
  - are running on your locally installed Jupyter Notebook server by opening a notebook and checking that "Jupyter Server: local" is listed in the right-hand side of the blue VS Code status bar and 
  - "app-env" is listed in the upper right-hand corner of the notebook as the notebook's selected "kernel"
+
+> __The kernel failed to start as the Python Environment...__
+> 
+> If you run into this problem, [this Stack Overflow post](https://stackoverflow.com/questions/70506366/failed-to-start-the-kernel-jupyter-in-vs-code/72937056#72937056) is helpful.  I did the following (in an activated shell):
+> 
+> ```(app-env) PS > pip3 install --upgrade pyzmq```
+> 
+> ```(app-env) PS > pip3 install jupyter```
