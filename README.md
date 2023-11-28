@@ -90,3 +90,7 @@ This project already contains several Jupyter Notebooks.  You should ensure that
 > ```(app-env) PS > pip3 install --upgrade pyzmq```
 > 
 > ```(app-env) PS > pip3 install jupyter```
+
+> __Want to learn more about virtual environments and packaging?__
+> 
+> Check out [this great episode](https://talkpython.fm/episodes/show/436/an-unbiased-evaluation-of-environment-and-packaging-tools) of the [Talk Python to Me podcast](https://talkpython.fm/).  Also see [this associated blog post](https://alpopkes.com/posts/python/packaging_tools/).
