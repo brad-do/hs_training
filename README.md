@@ -91,6 +91,9 @@ This project already contains several Jupyter Notebooks.  You should ensure that
 > 
 > ```(app-env) PS > pip3 install jupyter```
 
+#### Step 8: Add a "data" sub-directory
+Part of this project includes reading from a CSV file in a "data" folder.  You'll want to add that folder and then download the necessary CSV file into that directory.
+
 > __Want to learn more about virtual environments and packaging?__
 > 
 > Check out [this great episode](https://talkpython.fm/episodes/show/436/an-unbiased-evaluation-of-environment-and-packaging-tools) of the [Talk Python to Me podcast](https://talkpython.fm/).  Also see [this associated blog post](https://alpopkes.com/posts/python/packaging_tools/).
